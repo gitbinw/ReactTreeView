@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+.container {
+    max-width: 600px;
+    background: $grey;
+    overflow: hidden;
+    
+    h3 {
+        text-align: center;
+    }
+}
+#app {
+	float: right;
+
+    ul {
+		margin: 0;
+		list-style: none;
+
+         li {
+			float: right;
+			clear: both;
+			padding-right: 30px;
+			text-align: right;
+			margin: 5px 0;
+			cursor: pointer;
+		}
+	}
+}

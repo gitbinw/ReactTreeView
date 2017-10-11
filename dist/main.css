@@ -1,0 +1,19 @@
+.container {
+  max-width: 600px;
+  background: #eee;
+  overflow: hidden; }
+  .container h3 {
+    text-align: center; }
+
+#app {
+  float: right; }
+  #app ul {
+    margin: 0;
+    list-style: none; }
+    #app ul li {
+      float: right;
+      clear: both;
+      padding-right: 30px;
+      text-align: right;
+      margin: 5px 0;
+      cursor: pointer; }
